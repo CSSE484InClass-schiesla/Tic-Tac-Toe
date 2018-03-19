@@ -31,7 +31,7 @@
                                 </items>
                             </toolbar>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AYH-5d-bRs">
-                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="32"/>
                                 <items>
                                     <navigationItem title="Title" id="fVD-kM-Zyd">
                                         <barButtonItem key="leftBarButtonItem" title="New Game" id="Z1H-Gz-Igs">
@@ -65,12 +65,27 @@
                                             </mask>
                                         </variation>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xS0-SB-KED">
+                                        <rect key="frame" x="30" y="191" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MR0-vy-yCG">
+                                        <rect key="frame" x="20" y="121" width="374" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.3386065352" green="1" blue="0.27623416369999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.55045343369999999" green="1" blue="0.19458531770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="MR0-vy-yCG" firstAttribute="leading" secondItem="S3j-4e-0cz" secondAttribute="leading" constant="20" id="8Ag-D9-qG0"/>
                                     <constraint firstItem="J2D-LR-Qfr" firstAttribute="centerY" secondItem="S3j-4e-0cz" secondAttribute="centerY" id="AGi-0E-0c3"/>
+                                    <constraint firstItem="J2D-LR-Qfr" firstAttribute="leading" secondItem="S3j-4e-0cz" secondAttribute="leading" constant="20" id="ArN-J9-j6y"/>
                                     <constraint firstAttribute="trailing" secondItem="J2D-LR-Qfr" secondAttribute="trailing" constant="20" id="Bnj-1g-wRx"/>
                                     <constraint firstItem="J2D-LR-Qfr" firstAttribute="leading" secondItem="S3j-4e-0cz" secondAttribute="leading" constant="20" id="KeX-Ai-PkN"/>
+                                    <constraint firstItem="J2D-LR-Qfr" firstAttribute="top" secondItem="MR0-vy-yCG" secondAttribute="bottom" constant="12" id="lzF-RR-igx"/>
+                                    <constraint firstAttribute="trailing" secondItem="J2D-LR-Qfr" secondAttribute="trailing" constant="20" id="ofo-nV-87F"/>
+                                    <constraint firstAttribute="trailing" secondItem="MR0-vy-yCG" secondAttribute="trailing" constant="20" id="sh2-47-gDk"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">

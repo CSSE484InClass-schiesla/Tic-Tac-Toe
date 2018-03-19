@@ -12,6 +12,9 @@
 		0A4DA21A205AD0E000B4FBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4DA218205AD0E000B4FBDD /* Main.storyboard */; };
 		0A4DA21C205AD0E000B4FBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4DA21B205AD0E000B4FBDD /* Assets.xcassets */; };
 		0A4DA21F205AD0E000B4FBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4DA21D205AD0E000B4FBDD /* LaunchScreen.storyboard */; };
+		0A744F762060098800EFAF64 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A744F732060098700EFAF64 /* Icon-72.png */; };
+		0A744F772060098800EFAF64 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A744F742060098700EFAF64 /* Icon@2x.png */; };
+		0A744F782060098800EFAF64 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A744F752060098800EFAF64 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0A4DA21B205AD0E000B4FBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A4DA21E205AD0E000B4FBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A4DA220205AD0E000B4FBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A744F732060098700EFAF64 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0A744F742060098700EFAF64 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0A744F752060098800EFAF64 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		0A4DA213205AD0E000B4FBDD /* Tic-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
+				0A744F722060094800EFAF64 /* Supporting */,
 				0A4DA214205AD0E000B4FBDD /* AppDelegate.swift */,
 				0A4DA216205AD0E000B4FBDD /* ViewController.swift */,
 				0A4DA218205AD0E000B4FBDD /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				0A4DA220205AD0E000B4FBDD /* Info.plist */,
 			);
 			path = "Tic-Tac-Toe";
+			sourceTree = "<group>";
+		};
+		0A744F722060094800EFAF64 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				0A744F732060098700EFAF64 /* Icon-72.png */,
+				0A744F752060098800EFAF64 /* Icon.png */,
+				0A744F742060098700EFAF64 /* Icon@2x.png */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A744F782060098800EFAF64 /* Icon.png in Resources */,
 				0A4DA21F205AD0E000B4FBDD /* LaunchScreen.storyboard in Resources */,
+				0A744F762060098800EFAF64 /* Icon-72.png in Resources */,
 				0A4DA21C205AD0E000B4FBDD /* Assets.xcassets in Resources */,
 				0A4DA21A205AD0E000B4FBDD /* Main.storyboard in Resources */,
+				0A744F772060098800EFAF64 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
