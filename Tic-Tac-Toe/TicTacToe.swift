@@ -42,7 +42,9 @@ class TicTacToeGame: CustomStringConvertible {
     }
     
     func pressedSquare(_ index: Int) {
+        print("here 1")
         if gameBoard[index] != .none {
+            print("here")
             return //this square is not empty
         }
         if gameState == .xTurn {
